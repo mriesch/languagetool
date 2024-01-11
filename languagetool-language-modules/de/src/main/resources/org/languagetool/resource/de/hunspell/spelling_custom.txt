@@ -1,1 +1,29 @@
 # Add terms here that should be accepted by the LanguageTool spell checker, one word or phrase per line
+# Wörter für das Project DDS Classic
+C0hv
+DDS-Classic
+Semantic Versioning
+WebLogic
+apps
+branch
+build
+buildnumber
+c0hv
+c0hvdds
+classic
+dds
+echo
+home
+local
+my
+name
+path
+pkg
+readonly
+rpm
+setup
+snapshot
+type
+var
+version
+weblogic
