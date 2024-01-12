@@ -27,6 +27,7 @@
             <includes>
                 <include>testrules.sh</include>
                 <include>testrules.bat</include>
+                <include>run_local.bash</include>
             </includes>
         </fileSet>
     </fileSets>
@@ -82,7 +83,8 @@
             <unpack>true</unpack>
             <scope>runtime</scope>
             <includes>
-                <include>org.languagetool:language-*</include>
+                <include>org.languagetool:language-de</include>
+                <include>org.languagetool:language-en</include>
             </includes>
         </dependencySet>
     </dependencySets>

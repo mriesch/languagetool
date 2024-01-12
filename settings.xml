@@ -1,0 +1,40 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                              http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+
+    <offline>false</offline>
+
+    <activeProfiles>
+        <activeProfile>mriesch-local-setting</activeProfile>
+    </activeProfiles>
+    <profiles>
+        <profile>
+            <id>mriesch-local-setting</id>
+            <repositories>
+                <repository>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                        <checksumPolicy>fail</checksumPolicy>
+                    </snapshots>
+                    <id>my_repository_id</id>
+                    <url>file://https:///home/mrieschalma/.m2/repository</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+            </pluginRepositories>
+            <properties>
+                <revision>6.4-mriesch</revision>
+            </properties>
+        </profile>
+    </profiles>
+
+</settings>
+
