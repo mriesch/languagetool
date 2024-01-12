@@ -45,9 +45,19 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
         </dependency>
+<!--
         <dependency>
             <groupId>org.languagetool</groupId>
             <artifactId>language-all</artifactId>
+        </dependency>
+-->
+        <dependency>
+            <groupId>org.languagetool</groupId>
+            <artifactId>language-de</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.languagetool</groupId>
+            <artifactId>language-en</artifactId>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
